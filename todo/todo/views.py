@@ -1,7 +1,7 @@
 from django . shortcuts import render,redirect
 from django.contrib.auth.models import User
 from todo import models
-from todo.models import Todoo
+from todo.models import TODOO
 
 def signup(request):
     if request.method=='POST':
